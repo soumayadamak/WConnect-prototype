@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>WConnect</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/wellesley_logo_white.png" alt="Wellesley logo" style="width:5em; height:100%;"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">User Analysis & Ideation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Interactive Prototyping & Evaluation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container" style = "padding-top: 200px;">
+                <div class="masthead-heading">WConnect</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#introduction">Tell Me More</a>
+            </div>
+        </header>
+        <!-- Introduction-->
+        <section class="page-section" id="introduction">
+            <div class="container">
+
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-question fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Problem Statement</h4>
+                        <p class="text-muted">Because they come from a drastically different sociocultural environment, many immigrant, international, first-generation low income, and refugee undergraduate students studying in Wellesley College experience a lack of community and social  + academic belonging. This prevents them from experiencing college life on an equal playing field as everyone else, and hurts both their psychological health and access to post-college opportunities.</p>
+                    </div>
+                  
+                    <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Solution</h4>
+                        <p class="text-muted">We have built an interface where students of all backgrounds can connect with each other and feel a little less lonely. Students, especially first-years who are brought into this new enviornment would benefit knowing that members of the community are accessible. With this app, students will be able to develop relationships with students and professors from similar backgrounds, and find student clubs they're interested in.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- User analysis-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">User Analysis & Ideation (P1-P3)</h2>
+                    <h3 class="section-subheading text-muted">Human-centered iterative design</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/conceptboard1.png" alt="screenshot of empathy maps" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Takeaways From User Interviews</div>
+                                <!-- <div class="portfolio-caption-subheading text-muted">P1</div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/persona1.png" alt="screenshot from first persona" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Personas</div>
+                                <!-- <div class="portfolio-caption-subheading text-muted">P2</div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" id = "portfolio3" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/HTA11.png" alt="screenshot of task analysis" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Task Analysis</div>
+                                <!-- <div class="portfolio-caption-subheading text-muted">P2</div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/DomainAnalysis0.png" alt="Domain Analysis" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Domain Analysis</div>
+                                <!-- <div class="portfolio-caption-subheading text-muted">P2</div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/circle.jpeg" alt="circle" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Scenarios</div>
+                                <!-- <div class="portfolio-caption-subheading text-muted">P2</div> -->
+                            </div>
+                        </div>
+                    </div>
+
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Takeaways From User Interviews</h2>
+
+                                    <p class="item-intro text-muted">Students who fall in the target audience discuss their first-year experience</p>
+                                    <ul>
+                                        <li>Our target audience are students at Wellesley College, especially first-years who come from an international, immigrant, refugee, or first-gen low-income background.</li>
+                                        <li>Students feel a big culture shock when they enter college.</li>
+                                        <li>Entering a new enviornment of people/academics and not having the usual support system caused some anxiety.</li>
+                                        <li>The first year of college is always a major adjustment socially and academically, especially for those unfamilair with the system (international students, first-generation students, etc) </li>
+                                        <li>Students do not know who they can talk to about certain aspects of college.</li>
+                                        <li>Forming connections with people of similar and/or different backgrounds is a common goal.</li>
+                                    </ul>
+                                    <p class="item-intro text-muted">Some screenshots of our User Empathy maps</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/conceptboard1.png" alt="empathy map user 1" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/conceptboard3.png" alt="empathy map user 2" />
+
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Personas</h2>
+                                    <p class="item-intro text-muted">Fictional characters created based on user interviews</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/persona1.png" alt="screenshot of our first persona" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/persona2.png" alt="screenshot of second persona" />
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Task Analysis</h2>
+                                    <p class="item-intro text-muted">Hierarchical task analyses describing the goals users should accomplish </p>
+                                    <p>Task 1: Create an account</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Taskcreateaccount.png" alt="screenshot of task analysis 1" />
+                                    <p>Task 2: Send a message to another student</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/HTA12.png" alt="screenshot of task analysis 2" />
+                                    <p>Task 3: Schedule a meeting with a professor</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/HTA13.png" alt="screenshot of task analysis 3" />
+                                    <p>Task 4: Reach out to student organizations</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/HTA11.png" alt="screenshot of task analysis 4" />
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Domain Analysis</h2>
+                                    <p class="item-intro text-muted">Important entities that are relevant to the problem domain</p>
+                                    <div class = "row">
+                                        <div class="col-lg-6">
+                                            <div class="card" style="width: 18rem; margin:auto;height: 21em;">
+                                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/classphoto.jpeg" alt="class photo of 2019" >
+                                                <div class="card-body">
+                                                  <h5 class="card-title">People</h5>
+                                                  <p class="card-text">Students, professors, student organizations</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card" style="width: 18rem; margin:auto; height: 21em;">
+                                                <img class="img-fluid d-block mx-auto " style = "height: 160px;" src="assets/img/portfolio/faculty.png" alt="faculty website" >
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Websites</h5>
+                                                  <p class="card-text">Faculty Websites</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class = "row" style = "margin-top: 1em;">
+                                        <div class="col-lg-6">
+                                            <div class="card" style="width: 18rem; margin:auto;height: 21em;">
+                                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/orgs.png" alt="Wengage" >
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Applications</h5>
+                                                  <p class="card-text">WEngage, Gmail, and Google Calendar</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card" style="width: 18rem; margin:auto; height: 21em;">
+                                                <img class="img-fluid d-block mx-auto " style = "height: 160px;" src="assets/img/portfolio/towerCourt.jpeg" alt="tower court" >
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Objects</h5>
+                                                  <p class="card-text">dorms, professor offices, student orgs meeting locations</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button" style = "margin-top: 2em;">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Scenarios</h2>
+                                    <p class="item-intro text-muted">Concrete, realistic stories that describe the main tasks</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/circle.jpeg" alt="circle of dilemmas" />
+                                    <span style = "font-weight:bold;"> Task 1: Make an account on the app</span><p> Ana is a first year, FGLI, refugee student who just started her first semester at Wellesley College. Ana was super excited to start her journey at Wellesley, but she’s having a hard time adjusting socially and academically. When she asked some upper class students what helped them adjust to Wellesley and thrive, they all mentioned having a strong support system that was there for them throughout the  journey. Ana is still unable to build strong connections with students and can’t seem to find a good advisor who can understand her background. She met a few people during orientation and in her classes, but she’s still unable to find her support system. The campus is so big and lonely, and Ana doesn’t know where to go to find friends and professors that can give her advice. People also started talking about summer internships (ALREADY!) and she just feels confused as no one in her family can understand what she’s going through but everyone expects her to succeed. Ana heard there’s an app that allows her to meet students and professors in her college based on specific criteria she selects. So she went to the play/app store and downloaded it to see what all the buzz is about.  </p>
+                                    <span style = "font-weight:bold;">Task 2: Send message to another student</span> <p>Mimi is a first year, FGLI, Chinese immigrant student who just started her first semester at Wellesley College. Coming to the United States was a huge culture shock. In addition to keeping up with school, she really wants to make new friends. In high school, she did not not make many friends because she was busy working jobs afterschool, helping her parents fill out documents, and taking care of her siblings. At orientation, Mimi sees that people are quickly becoming friends with each other. She feels like this is high school all over again. Finding friends should be easy, especially in such a small school right? Everyone at Wellesley is unqiue, but adjusting to college life, especially the social aspect, would be much easier if there was someone who could relate to her story.</p>
+                                    <span style = "font-weight:bold;">Task 3: Schedule a meeting with a professor</span><p>Mimi is thinking of declaring a major in chemistry and sociology (on the pre-med track). She wants to reach out and make connections with professors in those departments, but feels uncomfortable doing so in a predominantly white institution and is unsure of what to say - especially as she was unable to get into any relevant classes during course registration. She especially wants to find any other Asian professors in the chemistry and sociology classes, which she is unable to without looking at every individual profile on the directory.</p>
+                                    <span style = "font-weight:bold;">Task 4: Reach out to a student organization</span><p> It has been a few weeks since class has started and Mimi wants to join some student organizations to get to know her peers. Other than her roommate, she has not really met other people. She has taken the time to admire the beautiful Wellesley campus, especially around Lake Waban. Mimi wants to find an org that raises awareness about enviornmental consequences. She does not know much about student organizations and hopes to reach out to someone from that group.</p>
+
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+
+        <!-- Timeline-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Prototyping (P2-P5)</h2>
+                    <h3 class="section-subheading text-muted">Timeline from sketched wireframes to interactive prototype</h3>
+                </div>
+                <ul class="timeline">
+                    <!-- P2 desing and feedback -->
+                    <li >
+                        <div class="timeline-image" >
+                            <a class = "timeline-link" data-bs-toggle="modal" href="#TimelineModal1">
+                                <div class="rounded-circle timeline-hover">
+                                    <div class="timeline-hover-content"><i class="fas fa-plus fa-3x"></i></div> 
+                                </div>
+                                <img class="rounded-circle img-fluid" style = "height:100%; width:100%;" src="assets/img/about/1.jpg" alt="sketch design" />
+
+                            </a>
+                        </div>  
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Sketched Wireframes</h4>
+                            </div>
+                            <div class="timeline-body">Two preliminary designs of sketched user interface to get feedback in class for our peers. <span style = "font-weight: bold;"> Click on the photo to learn more.</span></div>
+                        </div>
+                    </li>
+                    <li class = "timeline-inverted">
+                        <div class="timeline-image" >
+                            <a class = "timeline-link" data-bs-toggle="modal" href="#TimelineModal2">
+                                <div class="rounded-circle timeline-hover">
+                                    <div class="timeline-hover-content"><i class="fas fa-plus fa-3x"></i></div> 
+                                </div>
+                                <img class="rounded-circle img-fluid" style = "height:100%; width:100%;" src="assets/img/portfolio/DesignReviewThumbnail.jpeg" alt="sketch design" />
+
+                            </a>
+                        </div>  
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Takeaways From In-Class Design Review</h4>
+                            </div>
+                            <div class="timeline-body">Plans on improvemenets for the next iteration (low fidelity wireframe) from the feedback received on the sketched interfaces. <span style = "font-weight: bold;"> Click on the photo to learn more.</span></div>
+                        </div>
+                    </li>
+                    <!-- P3 Design and feedback -->
+                    <li >
+                        <div class="timeline-image" >
+                            <a class = "timeline-link" data-bs-toggle="modal" href="#TimelineModal3">
+                                <div class="rounded-circle timeline-hover">
+                                    <div class="timeline-hover-content"><i class="fas fa-plus fa-3x"></i></div> 
+                                </div>
+                                <img class="rounded-circle img-fluid" style = "height:100%; width:100%;" src="assets/img/timeline/low.png" alt="Balsamiq icon" />
+
+                            </a>
+                        </div>  
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Low Fidelity Interactive Prototype & Design Direction</h4>
+                            </div>
+                            <div class="timeline-body">A low fidelity interactive prototype that allows the user to perform the 4 tasks outlined in the task analysis. <span style = "font-weight: bold;">Click on the photo to watch a video of the prototype</span> and learn about our design direction. </div>
+                        </div>
+                    </li>
+                    <!-- P4 Design of one task  -->
+                    <li class = "timeline-inverted">
+                        <div class="timeline-image" >
+                            <a class = "timeline-link" data-bs-toggle="modal" href="#TimelineModal4">
+                                <div class="rounded-circle timeline-hover">
+                                    <div class="timeline-hover-content"><i class="fas fa-plus fa-3x"></i></div> 
+                                </div>
+                                <img class="rounded-circle img-fluid" style = "height:100%; width:100%;" src="assets/img/timeline/shot2.png" alt="sketch design" />
+
+                            </a>
+                        </div>  
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Overview of High Fidelity in Look Prototype & Design Rationale</h4>
+                            </div>
+                            <div class="timeline-body"> Overview of a prototype that is high fidelity in look and medium fidelity in breadth. It was made using the software Sketch for one task only (Message a friend). The design rationale behind the interface is also included.<span style = "font-weight: bold;"> Click on the photo to learn more.</span> </div>
+                        </div>
+                    </li>
+                    <!-- P5 Feedback and full proto -->
+                    <li >
+                        <div class="timeline-image" >
+                            <a class = "timeline-link" data-bs-toggle="modal" href="#TimelineModal5">
+                                <div class="rounded-circle timeline-hover">
+                                    <div class="timeline-hover-content"><i class="fas fa-plus fa-3x"></i></div> 
+                                </div>
+                                <img class="rounded-circle img-fluid" style = "height:100%; width:100%;" src="assets/img/about/3.jpg" alt="sketch design" />
+
+                            </a>
+                        </div>  
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Takeaways from Heuristic Design Evaluation</h4>
+                            </div>
+                            <div class="timeline-body">Feedback on the high fidelity in look and medium fidelity in breadth prototype by our peers.<span style = "font-weight: bold;"> Click on the photo to learn more.</span></div>
+                        </div>
+                    </li>
+                    <!-- P5 full design -->
+                    <li class = "timeline-inverted">
+                        <div class="timeline-image" >
+                            <a class = "timeline-link" data-bs-toggle="modal" href="#TimelineModal6">
+                                <div class="rounded-circle timeline-hover">
+                                    <div class="timeline-hover-content"><i class="fas fa-plus fa-3x"></i></div> 
+                                </div>
+                                <img class="rounded-circle img-fluid" style = "height:100%; width:100%;" src="assets/img/timeline/idea-to-final-product-process-illustrated-spinning-gears-concept-85380963.jpeg" alt="sketch design" />
+
+                            </a>
+                        </div>  
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Final InVision Prototype</h4>
+                            </div>
+                            <div class="timeline-body"> The final prototype allows the user to reach out to a friend and a professor from a similar background to them. The user can also reach out to an student organization that matches their interest. <span style = "font-weight: bold;"> Click on the photo to watch the video.</span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+       
+<!-- Timeline Modals-->
+                <!-- Timeline item 1 modal popup-->
+                <div class=" portfolio-modal modal fade design" id="TimelineModal1" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                            <div class="container">
+                                
+                                    <h2 class="text-uppercase">Design Directions</h2>
+                                    <p class="item-intro text-muted">Two preliminary designs of user interface</p>
+                                    <div class="modal-body">
+                                        <div class="row ">
+                                                <div class="col-lg-6" >
+                                                    <!-- Project details-->
+                                                    <h4 class="text-uppercase"> Design 1</h4>
+                                                    <div class = "colImage"><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Design1CreateAccount.png" alt="screenshot of task 1 sketch design 1" /></div>
+                                                    <p>Create Account 1:  Formal and dry, vertical scrolling to create the account, and multiple choice</p>
+                                                    <div class = "colImage"><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Design1Friend.png" alt="screenshot of task 2 sketch design 1" /></div>
+                                                    <p>Find Friends 1: Clicking numbered pages at the bottom of the screen when browsing friends</p>
+                                                    <div class = "colImage"><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Design1Professors.png" alt="screenshot of task 3 sketch design 1"  /></div>
+                                                    <p>Find Professors 1:  Horizontal menu bar to show user status; clicking on professor's image takes to their profile; can only interact with the professor after seeing their profile</p>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <!-- Project details-->
+                                                    <h4 class="text-uppercase"> Design 2</h4>
+                                                    <div class = "colImage"><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Design2CreateAccount.png" alt="screenshot of task 1 sketch design 2"/></div>
+                                                    <p>Create Account 2: Progress bar while creating the account (move horizontally between pages)</p>
+                                                    <div class = "colImage"><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Design2Friends.png" alt="screenshot of task 1 sketch design 2"/></div>
+                                                    <p>Find Friends 2: Conversational style and more friendly tone</p>
+                                                    <div class = "skewed">
+                                                    <div class = "colImage" ><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Design2Professors.png" alt="screenshot of task 2 design 2" /></div>
+                                                    <p >Find Professors 2: Fill in the blank manually and navigation happens via 'back' and 'next' button</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button" style = "margin-top: 20px;">
+                                                <i class="fas fa-times me-1"></i>
+                                                Close
+                                            </button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Timeline item 2 -->
+                <div class="portfolio-modal modal fade" id="TimelineModal2" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <div class="modal-body">
+                                            <!-- Project details-->
+                                            <h2 class="text-uppercase">Takeaways from in-class design review</h2>
+                                            <p class="item-intro text-muted">Plans on improvement for prototype</p>
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/DesignReviewThumbnail.jpeg" alt="screenshot of human-centered design" />
+                                            <h4> Good Design Elements</h4>
+                                            <div class= "positive">
+                                                <ul>
+                                                    <li>Consistency with other networking applications.</li>
+                                                    <li>The design serves a need of college students (social connections and academic success).</li>
+                                                    <li>Clean and simple design: easy to learn and navigate.</li>
+                                                    <li> The personas were detailed and clear: easy to empathise with them.</li>
+                                                    <li>Use of icons is good for learnability </li>
+                                                    <li>Filter option to narrow the search.</li>
+                                                  
+                                                </ul>
+                                            </div>
+                                            <h4> Growth Areas</h4>     
+                                            <div class = "growth">                                 
+                                                <ul>
+                                                    <li>Clear differentiation in functionality between this app and other apps like social media.</li>
+                                                    <li>Fear of sending messages ⇒ provide some guidelines on how to approach speaking to professors</li>
+                                                    <li> The task of creating an account is self-explanatory.</li>
+                                                    <li>Hard to differentiate between the two designs presented.</li>
+                                                    <li> Option of hiding certain personal information.</li>
+                                                    <li>Add a group conversation feature.</li>
+                                                </ul>
+                                            </div>  
+                                            
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                                <i class="fas fa-times me-1"></i>
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Timeline item 3 -->
+                <div class="portfolio-modal modal fade" id="TimelineModal3" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <div class="modal-body">
+                                            <!-- Project details-->
+                                            <h2 class="text-uppercase">Low Fidelity Interactive Prototype & Design Direction </h2>                               
+                                            <p class="item-intro text-muted">Implemented the feedback from the sketched designs and built a low fidelity interactive prototype to get a quick feedback on the layout of the app using Balsamiq</p>
+                                            <h4> Video of Prototype</h4>
+                                            <div class="embed-responsive embed-responsive-16by9" style="width:100%;height:400px;"> 
+                                                <iframe width="100%" height="100%" class="embed-responsive-item" src="https://www.youtube.com/embed/1XRx2R78FmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div> 
+                                            <h4>Design Direction Based on the Feedback from the Sketched Wireframes</h4>
+                                            <ul>
+                                                <li >Adopted the second design characterized by the conversational style of interaction with the user and the horizontal progress bar.</li>
+                                                <li>Adopted  some features from the first design such as the use of icons, ability to choose multiple options for the questions regarding identity and the ability to choose what to disclose publicly.</li>
+                                                <li>Added the option of updating the profile after creating the account to allow users to reflect their growth throughout their time at Wellesley.</li>
+                                                <li>Added a group chat option so that students can talk to multiple people at a time if they want.</li>
+                                                <li>Added a disclaimer at the beginning to ensure that the user knows what fields are required to create  a profile (name, last name, email).</li>
+                                                <li>Allowed the user to browse through friends in addition to having a suggested list to not get stuck in a bubble but also not get overwhelmed with the long list of students.</li>
+                                            </ul>
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button" style = "margin-top: 30px;">
+                                                <i class="fas fa-times me-1"></i>
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Timeline item 4 -->
+                <div class="portfolio-modal modal fade" id="TimelineModal4" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-12">
+                                        <div class="modal-body">
+                                            <!-- Project details-->
+                                            <h2 class="text-uppercase"> Overview of high fidelity prototype & design rationale  </h2>                               
+                                            <p class="item-intro text-muted">Implemented the feedback from the low fidelity prototype and built a high fidelity prototype in look using Sketch for one task only (Message a Friend) to get feedback on the layout and aesthetics of the app before adding other functionalities</p>
+                                            <h4> Screenshots from the Wireframe</h4>
+                                            <!-- Replace this photo -->
+                                            <div><img class="img-fluid d-block mx-auto" src="assets/img/timeline/task1.png" alt="task 1 high fidelity" /></div>
+                                    
+                                            <h4>Design Rationale</h4>
+                                            <div class="row text-center">
+                                                <div class="col-md-4">
+                                                    <span class="fa-stack fa-4x">
+                                                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                                        <i class="fas fa-font fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                    <h4 class="my-3">Typography</h4>
+                                                    <p class="text-muted">The only font used was Gill Sans</p>
+                                                        <ul>
+                                                            <li>Similar font to other apps for external consistency.</li>
+                                                            <li>Belongs to the sans-serif family to be casual and not so professional like banking apps.</li>
+                                                            <li>Stylized the font by using bold, semi bold, and regular.</li>
+                                                        </ul> 
+                                                </div>
+                                              
+                                                <div class="col-md-4">
+                                                    <span class="fa-stack fa-4x">
+                                                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                                        <i class="fas fa-tint fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                    <h4 class="my-3">Color Scheme</h4>
+                                                    <p class="text-muted">We chose a dark blue and yellow color scheme </p>
+                                                    <ul>
+                                                        <li>The colors are complementary in the color wheel.</li>
+                                                        <li>Chose the blue to represent the Wellesley Blue which provokes feelings of calmness and serenity in addition to establishing a sense of credibility.</li>
+                                                        <li>Chose the yellow to provokes feelings of happiness and cheerfulness while grabbing attention.</li>
+                                                        <li>All of the written text is in blue so users can see the words</li>
+                                                        <li>All buttons are in yellow as it grabs attention to the call for action buttons.</li>
+                                                    </ul>
+                                                        
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <span class="fa-stack fa-4x">
+                                                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                                        <i class="fas fa-pencil-ruler fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                    <h4 class="my-3">Graphic design</h4>
+                                                    <p class="text-muted">
+                                                        Simple design for high learnability and efficiency</p>
+                                                        <ul>
+                                                            <li>White and clean background that goes well with yellow and blue. </li>
+                                                            <li>Horizontal menu bar at the bottom to easily access the different functionalities. </li>
+                                                            <li>The tab in current use is highlighted in blue for visiblity of system status.</li>
+                                                            <li>No use of abbreviations nor slang words to ensure that all students with a good understanding of English can use the app.</li>
+                                                            <li>Incorporate icons with text to increase accessbility.</li>
+                                                            <li>The filters allows the user to select multiple choices to not pressure them to come up with their own answers and to enable them to choose multiple options. </li>
+                                                            <li>External consistency with other similar apps like social media and chatting apps. </li>
+                                                        </ul>  
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button" style = "margin-top: 30px;">
+                                                <i class="fas fa-times me-1"></i>
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Timeline item 5-->
+                <div class="portfolio-modal modal fade" id="TimelineModal5" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <div class="modal-body">
+                                            <!-- Project details-->
+                                            <h2 class="text-uppercase">Takeaways from Heuristic Design Evaluation </h2>                               
+                                            <p class="item-intro text-muted">Feedback on the high fidelity in look and medium fidlelity in breadth prototype by our peers.</p>
+                                            <h4> Good Design Elements</h4>
+                                            <div class= "positive">
+                                                <ul>
+                                                    <li>The use of icons besides each filter criteria was helpful to users, demonstrating a match between the system and real-world imagery.</li>
+                                                    <li>Users reported high levels of internal consistency, citing the similar color scheme for buttons between different tabs on the app.</li>
+                                                    <li>The use of concise language also made the app easier to understand, and this was supplemented by the app’s minimalist design.</li>
+                                                    <li>The pre-written message alleviated the stress of reaching out to strangers.</li>
+                                                  
+                                                </ul>
+                                            </div>
+                                            <h4> Growth Areas that were Implemented</h4>     
+                                            <div class = "growth">                                 
+                                                <ul>
+                                                    <li>Link all tabs (e.g. profs, sibs, orgs, etc) in the menu bar.</li>
+                                                    <li>Improve the users’ visibility of system status by adding user responses to each filter section after the filter was checked.</li>
+                                                    <li>Allow the user to undo messages to sibs and student orgs, while keeping an additional “are you sure?” page when emails to professors were not unsendable.</li>
+                                                </ul>
+                                            </div>   
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button" style = "margin-top: 30px;">
+                                                <i class="fas fa-times me-1"></i>
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <!-- Timeline item 6-->
+               <div class="portfolio-modal modal fade" id="TimelineModal6" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Project details-->
+                                        <h2 class="text-uppercase">Final InVision Prototype</h2>                               
+                                        <p class="item-intro text-muted">The final interactive prototype that was made using InVision. The user can reach out to friends and professor from similar backgrounds. They can also reach out to student organizations that match their interest.</p>
+                                        <h4> Video of the Prototype</h4>
+                                        <div class="embed-responsive embed-responsive-16by9" style="width:100%;height:400px;"> 
+                                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qBy11J7jUCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div> 
+                   
+                                
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button" style = "margin-top: 30px;">
+                                            <i class="fas fa-times me-1"></i>
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 text-lg-start">Copyright &copy; <span style = "font-weight: bold;">WConnect</span> by Alice Mei, Van An Trinh, and Soumaya Dammak</div>
+                    
+                   
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>
